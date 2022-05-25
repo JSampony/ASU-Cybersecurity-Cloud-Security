@@ -4,7 +4,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/CyberSecurity_Project1.png)
+![CyberSecurity_Project1](https://user-images.githubusercontent.com/101488469/170151477-51050d38-c828-4ab9-a865-71dd5b9f6dc6.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
