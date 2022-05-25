@@ -8,8 +8,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-/home/sysadmin/Desktop/Final Repository/ASU-Cybersecurity-Cloud-Security/Diagrams/CyberSecurity_Project1   - ![Install VM with Docker](Ansible/install_docker_playbook.yml)
-- ![Install Filebeat Playbook](Ansible/Filebeat_playbook.yml)  
+- /home/sysadmin/Desktop/Final Repository/ASU-Cybersecurity-Cloud-Security/Ansible/filebeat-config.yml    - /home/sysadmin/Desktop/Final Repository/ASU-Cybersecurity-Cloud-Security/Ansible/filebeat-playbook.yml
+- /home/sysadmin/Desktop/Final Repository/ASU-Cybersecurity-Cloud-Security/Ansible/metricbeat-playbook.yml
+
 
 ## This document contains the following details:
 
@@ -73,8 +74,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Increase Memory Use: sysctl -w vm.max_map_count=262144
 - Download and Launch a docker elk container
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.![Screen Shot Confirmation](Images/docker_elk_screen_verification.png)
-
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.![docker_elk_screen_verification](https://user-images.githubusercontent.com/101488469/170151745-6e6f883b-40a4-4c01-ab92-cffffe9caa34.png)
 ### Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
