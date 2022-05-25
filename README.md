@@ -98,7 +98,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
   - Run the playbook, and login to elk stack sever  to http://[0.0.0.0]:5601/app/kibana  to check that the installation worked as     expected.
 - Create a new playbook in the /etc/ansible/roles/ directory that will install, drop in the updated configuration file, enable and configure system module, run the filebeat setup, and start the filebeat service.
 
-*As a \**Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.* The commands needed to run the Ansible configuration for the Elk-Server are:
+Ansible configuration for the Elk-Server are:
 
 - ssh RedAdmin@JumpBox(PrivateIP 10.0.0.4)
 - sudo docker container list -a (locate your ansible container)
